@@ -9,3 +9,8 @@ a+b - example
 > Code reusability
 >debugging
 >easy to colab
+
+5. End to End Project (Chatbook class)
+>Enacapsulation
+>getter and setter
+> static method
