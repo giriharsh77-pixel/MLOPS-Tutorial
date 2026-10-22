@@ -11,6 +11,13 @@ a+b - example
 >easy to colab
 
 5. End to End Project (Chatbook class)
+> function vs method
+>magic vs dunder method
+>self
+>you can create attribute after class as well
+
 >Enacapsulation
 >getter and setter
 > static method
+
+>Inheritance

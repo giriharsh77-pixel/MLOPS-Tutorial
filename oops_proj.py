@@ -1,9 +1,33 @@
 class chatbook:
+    
+    __user_id = 1
+    
     def __init__(self):
+        self.__name = "Default User"
+        self.id = chatbook.__user_id
+  
+        chatbook.__user_id+=1
         self.username = ""
         self.password = ""
         self.loggedin = False
-        self.menu()
+        #self.menu()
+    
+    
+    @staticmethod    
+    def get_id(self):
+        return chatbook.__user_id
+    
+    @staticmethod  # no self is used in static method # used to flag static methods, which are not bound to an instance of the class. They can be called on the class itself, rather than on an instance of the class.
+    def set_id(value):
+        chatbook.__user_id = value
+    
+    def get_name(self):
+        return self.__name
+    
+    def set_name(self,value):
+        self.__name = value
+    
+    
         
     def menu(self):
         user_input = input("""Welcome to Chatbook! How would you like to proceed?
