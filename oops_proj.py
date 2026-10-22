@@ -34,6 +34,7 @@ class chatbook:
     def signin(self):
         if self.username == "" and self.password == "":
             print("You have not signed up yet! Please signup first by pressing 1 in the main menu")
+            
         else:
             uname = input("enter your email/username here -> ")
             pwd = input("Enter your password here - >")
@@ -42,7 +43,7 @@ class chatbook:
                 self.loggedin = True
             else:
                 print("Please input correct credentials")
-                self.menu()
+        self.menu()
             
             
 obj = chatbook()
